@@ -39,6 +39,24 @@ export default [
                 component: './UserList',
               },
               {
+                path: '/sourceList',
+                name: 'sourceList',
+                icon: 'user',
+                component: './sourceList',
+              },
+              {
+                path: '/diversionList',
+                name: 'diversionList',
+                icon: 'user',
+                component: './diversionList',
+              },
+              {
+                path: '/statistics',
+                name: 'statistics',
+                icon: 'user',
+                component: './statistics',
+              },
+              {
                 path: '/authMan',
                 name: 'authMan',
                 icon: 'crown',
